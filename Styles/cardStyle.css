@@ -1,0 +1,31 @@
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: #909090 solid 3px;
+    padding: 15px;
+    border-radius: 25px;
+}
+.c figure{
+    margin: 0;
+}
+.card-title{
+    color: #dbdce0;
+    text-align: center;
+}
+.c blockquote{
+    color: #bcc7f8;
+}
+.button{
+    color: #f5f1f1;
+    text-decoration: none;
+    background-color: #375cfe;
+    padding: 8px 18px 8px 18px;
+    border-radius: 15px;
+    font-size: 1.1em;
+}
+.cardImg{
+    width: 250px;
+    border-radius: 8px;
+}
