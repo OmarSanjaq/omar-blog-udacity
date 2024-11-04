@@ -17,6 +17,12 @@
 .c blockquote{
     color: #bcc7f8;
 }
+.fig-caption{
+    color: #375cfe;
+    background-color: #1B1E34;
+    margin-top: 20px;
+    padding: 8px 18px 8px 18px;
+}
 .button{
     color: #f5f1f1;
     text-decoration: none;

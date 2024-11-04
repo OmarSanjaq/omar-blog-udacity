@@ -12,14 +12,14 @@ body{
 header{
     width: 100%;
 }
-.nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+    align-items: center; 
     margin-bottom: 30px;
     width: 100%;
-
+    
 }
 .main{
     margin-top: 30px;
@@ -71,7 +71,7 @@ header{
     .footer-contect{
         font-size: smaller;
     }
-    .nav{
-        flex-direction: column;
+    .navbar{
+        grid-template-columns: 1fr;
     }
 }
